@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio CV</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a >Luis Enrique</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Luis Enrique Campos Juarez</h1>
+            <h2>Ingeniero de Software & ciberseguridad </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/luisenrique.juarez.146" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/LenriqueJ2558" target="_blank" ><i class="fa-brands  fa-github"></i></a>
+                <a href="https://www.instagram.com/luisenriquejuarez66/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/51932616113" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@luisenriquejua2558" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, mi nombre es Luis Enrique.</span>Estudiante del ultimo ciclo de Ingeniera de Software en la Universidad "UTP" , Especializado en el Desarrollo y Mantenimiento de Aplicaciones de Escritorio "Java & Mysql" y Soporte Tecnico con mas de 3 años de experiencia en el Sector Publico.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-08-1998
+                        </li>
+                        <li>
+                            <strong>Edad</strong>
+                            25 Años
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 932616113
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            LenriqueJ2558@gmail.com
+                        </li>
+                        <li>
+                            <strong>Github</strong>
+                            LuisEnriqueCJ.github.io
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            1976 Santa Maria Lurigancho Chosica , Lima Peru
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Asistente de Sistemas e informatico</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses y Pasatiempos</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <a href="https://dota2.com/home?l=latam" target="_blank">
+                            <i class="fa-solid fa-gamepad"></i></a>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2k3tf2" target="_blank">
+                            <i class="fa-solid fa-headphones"></i></a>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://www.facebook.com/katytoursoxapampa/" target="_blank">
+                            <i class="fa-solid fa-plane"></i></a>
+                            <span>VIAJAR</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <a href="https://www.facebook.com/profile.php?id=100054198473879" target="_blank">
+                            <i class="fa-solid fa-person-hiking"></i></a>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://www.casadellibro.com/libro-padre-rico-padre-pobre-que-les-ensenan-los-ricos-a-sus-hijos-acerca-del-dinero-que-los-pobres-y-la-clase-media-no/9788466332125/2764446" target="_blank">
+                            <i class="fa-solid fa-book"></i></a>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://www.hyundaiusa.com/us/es/vehicles/santa-fe" target="_blank">
+                            <i class="fa-solid fa-car"></i></a>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://www.facebook.com/luisenrique.juarez.146" target="_blank">
+                            <i class="fa-solid fa-camera"></i></a>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                 <a href="https://drive.google.com/drive/folders/1zSOEaGcwyQFk5rKyJNfkqacE5GFQ0NQj?usp=sharing" target="_blank"> Descargar CV <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+             
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Tecnologias Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Base de Datos (Mysql)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo de software</h4>
+                        <span class="casa">Instituto Tecnologico "Idat"</span>
+                        <span class="fecha">2016 - 2019</span>
+                        <p> Desarrollo de Software estoy enfocado en la parte tecnica , que te dara las capacidades de analizar , validar, diseñar , desarrollar y desplegar aplicaciones de software para multiples plataformas : </p>
+                        <br>
+                        <p>Desktop</p>
+                        <br>
+                        <p>Aplicativo Web</p>
+                        <br>
+                        <p>App Moviles</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniero de software</h4>
+                        <span class="casa">Universidad Tecnologica del Peru "UTP"</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>Crear programas informáticos que satisfagan las necesidades de la sociedad y empresas.</p>
+                        <br>
+                        <p>Guiar y coordinar el desarrollo de una programación difícil.</p>
+                        <br>
+                        <p>
+                            Estimar los costos y el plazo de ejecución de un proyecto.
+                        </p>
+                        <br>
+                        <p>Diseño, desarrollo y administración de bases de datos.</p>
+                        <br>
+                        <p>Incluir procesos de calidad en las aplicaciones, como la medición de métricas y medidas y la evaluación de la calidad del software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Cybersecurity Essentials "CISCO"</h4>
+                        <span class="casa">Instituto Tecnologico "SISE"</span>
+                        <span class="fecha">2023 - 2024</span><p>Describir los principios de confidencialidad, integridad y disponibilidad en
+                            lo relativo al estado de la información y contramedidas de seguridad
+                            cibernética</p>
+                            <br>
+                            <p>Describir las tecnologías, productos y procedimientos que se utilizan
+                                para proteger la confidencialidad, garantizar la integridad y proporcionar
+                                una alta disponibilidad.</p>
+                            <br>
+                            <p>Explicar cómo los profesionales de la ciberseguridad utilizan tecnologías,
+                                procesos y procedimientos para defender todos los componentes de la
+                                red.</p>
+                            <br>
+                            <p>Explicar el propósito de las leyes relacionadas con la ciberseguridad.</p>
+
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>IT Essentials "CISCO"</h4>
+                        <span class="casa">Instituto Tecnologico "SISE"</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Seleccionar e instalar los componentes de la computadora adecuados
+                            para armar, reparar o actualizar las computadoras personales.</p>
+                            <br>
+                            <p>Usar adecuadamente herramientas para realizar mantenimiento
+                                preventivo y resolver problemas en computadoras personales.
+                            </p>
+                            <br>
+                            <p>Realizar la instalación, la reparación, el mantenimiento y la solución de
+                                problemas de los sistemas operativos Windows.
+                            </p>
+                            <br>
+                            <p>Explicar el funcionamiento de las redes de área local y configurar
+                                dispositivos para que se conecten a redes LAN y a Internet.
+                            </p>
+                            
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Soporte Tecnico - Informatica </h4>
+                        <span class="casa">Municipalidad distrital Ticlacayan, Pasco</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>Sustitución de equipos averiados o de partes específicas
+                            del hardware, según corresponda.</p>
+                            <br>
+                            <p>Diseño y gestión de bases de datos de acuerdo a
+                                necesidades de clientes.
+                            </p>
+                            <br>
+                            <p>Operación con sistemas físicos y virtuales como
+                                ordenadores, dispositivos móviles y sus sistemas
+                                operativos.
+                            </p>
+                            <br>
+                            <p>Mantenimiento y reparación del hardware, y aplicación de
+                                medidas de prevención de fallos.
+                            </p>
+                            <br>
+                            <p>Resolución de dudas y problemas relacionados con
+                                sistemas informáticos.
+                                
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programador SemiJr - Java & Mysql</h4>
+                        <span class="casa">Municipalidad Distrital Lurigancho,Chosica</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Creación de aplicaciones Desktop en la Tecnologia Java</p>
+                        <br>
+                        <p>Automatizar GUI en aplicaciones de escritorio Java</p>
+                        <br>
+                        
+                        
+                        <p>Instalacion de aplicaciones Desktop local mediente un servidor linux</p>
+                        <br>
+                        <span class="casa">Tecnologias Usadas:</span>
+                        <p>1. Java 11</p>
+                        <p>2. Mysql</p>
+                        <p>3. Maven</p>
+                        <p> 
+                            
+                            4. MVC Framework</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Creador de paginas Webs - Wordpress "Elementor Pro"</h4>
+                        <span class="casa">Municipalidad Distrital Lurigancho,Chosica</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Creacion , Diseño y desarrollo a la pagina web de la Municipalidad</p>
+                        <br>
+                        <p>instalacion de la pagina web al Hosting con el Cpanel y certificados SSL </p>
+                        <br>
+                        <p>Administrador de la pagina web de la Municipalidad </p>
+                        <br>
+                        <span class="casa">Tecnologias Usadas:</span>
+                        <p>1. Hosting GoDaddy</p>
+                        <p>2. Ip publica</p>
+                        <p>3. Wordpress plugins : "Elementor Pro"</p>
+                        <p>4. Html & Css</p>
+                        <p>5. Php</p>
+                        
+                       
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programador SemiJr - Desarrollador Back-end</h4>
+                        <span class="casa">Municipalidad Distrital Lurigancho,Chosica</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Creación de API’s en Tecnología JAVA</p>
+                        <br>
+                        <p>Documentación en Swagger, PostMan, OpenAPI</p>
+                        <br>
+                        <p>Deploy de API’s en Docker</p>
+                        <span class="casa">Tecnologias Usadas:</span>
+                        <p>1. Java 11</p>
+                        <p>2. Framework : Spring boot</p>
+                        <p>3. PostMan</p>
+                        <p>4. Mysql</p>
+                        <p>5. MicroServicios</p>
+                        
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Aplicativo Desktop</h3>
+                        <p>Login del aplicativo SGS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://munichosica.pe/" target="_blank">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pagina Web "Wordpress"</h3></a>
+                        <p>Pagina de la Municipalidad</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Aplicativo Desktop</h3>
+                        <p>Aplicativo de Marcación de Asistencia</p>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <form>
+                <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    
+                    <input type="text" name="name" placeholder="Tú Nombre">
+                    <input type="number" name="" placeholder="Número telefónico">
+                    <input type="email" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                1976 Santa Maria Lurigancho Chosica , Lima Peru
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +51 932616113
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: LenriqueJ2558@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            </form>
+            
+           
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/luisenrique.juarez.146" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/LenriqueJ2558" target="_blank" ><i class="fa-brands  fa-github"></i></a>
+            <a href="https://www.instagram.com/luisenriquejuarez66/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/51932616113" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@luisenriquejua2558" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
